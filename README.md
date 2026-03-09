@@ -1,7 +1,7 @@
 
 yaha ja ke post call karna hai : http://localhost:3000/worker/execute-react
 
- "http://localhost:3005/medical-history",
+ <!-- "http://localhost:3005/medical-history", -->
 payload : 
 ```
 {
