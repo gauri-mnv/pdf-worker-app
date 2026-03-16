@@ -23,6 +23,7 @@
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "axios": "^1.13.6",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^24.38.0",
     "reflect-metadata": "^0.2.2",
