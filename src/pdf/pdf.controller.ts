@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import {
   Controller,
   Post,
@@ -67,6 +68,7 @@ export class PdfController {
       //     message: 'Check your local folder to verify data accuracy',
       //   }),
       // );
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
       return res.download(result.fullPdf);
     } catch (error) {
       const message =
