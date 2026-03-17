@@ -1,0 +1,34 @@
+[
+  {
+    "field": "Short Text",
+    "value": "new"
+  },
+  {
+    "field": "Long Text",
+    "value": "test"
+  },
+  {
+    "field": "rating-fKto",
+    "value": "No"
+  },
+  {
+    "field": "rating-fKto",
+    "value": "No"
+  },
+  {
+    "field": "rating-fKto",
+    "value": "No"
+  },
+  {
+    "field": "rating-fKto",
+    "value": "No"
+  },
+  {
+    "field": "rating-fKto",
+    "value": "No"
+  },
+  {
+    "field": "Drop or Upload file here.jpg, .png, .pdf, .docx — max 10 MBUPLOAD FILE",
+    "value": ""
+  }
+]
