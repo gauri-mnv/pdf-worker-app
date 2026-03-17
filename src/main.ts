@@ -6,6 +6,5 @@ async function bootstrap() {
   await app.listen(process.env.PORT ?? 3000);
   console.log(`Application is running on: http://localhost:${3000}`);
   console.log('🚀 URL par ja raha hu');
-  // http://localhost:3000/worker/execute-react
 }
 bootstrap();

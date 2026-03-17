@@ -12,16 +12,13 @@ export class PdfController {
     @Body('link') link: string,
     @Res() res: express.Response,
   ) {
-    console.log(`📩 Request received for Link: ${link}`);
     try {
       const result: any = await this.reactPdfService.captureMultipageForm(link);
-      console.log(`✅ Success! PDF saved at: ${result.fullPdf}`);
       // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
       res.setHeader('X-Generated-Id', result.id);
       // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
       return res.download(result.fullPdf);
     } catch (error) {
-      console.error('❌ Controller Error:', error.message);
       const message =
         error instanceof Error ? error.message : 'An unknown error occurred';
       return res.status(HttpStatus.INTERNAL_SERVER_ERROR).send(message);
